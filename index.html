@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch a Sketch</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1 class="color-header">Etch-a-Sketch</h1>
+
+            <div id="form" class="form">
+                <p>New grid size:</p><input type="text" id="user-number" class="user-number">
+                <p id="copy-input"></p>
+                <button id='user-submit' class="user-submit">Submit</button>
+            </div>
+            <p id="prompt"></p>
+
+            <div id="buttons">
+                <form id="button-container">
+                    <input type="radio" id="black-pen" name="pen" value="black-pen"> <label for="black-pen">Black</label>
+                    <input type="radio" id="rainbow" name="pen" value="rainbow"> <label for="rainbow">Rainbow</label>
+                    <input type="radio" id="eraser" name="pen" value="eraser"> <label for="eraser">Eraser</label>
+                </form>
+                <button id="clear-button">Clear</button>
+            </div>
+
+            <div class="canvas">
+                <div class="container">
+                    
+                </div>
+            </div>
+
+            <div id="footer">Etch-a-Sketch The Odin Project</div>
+
+
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
